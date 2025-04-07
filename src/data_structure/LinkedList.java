@@ -25,9 +25,13 @@ public class LinkedList {
 
         showNodes(h1);
 
-        System.out.println("\n delete from middle ");
+        System.out.println("\n delete from lis by target value ");
 
-        showNodes(deleteFromMiddle(h1, 4));
+        showNodes(deleteEqualsValue(h1, 90));
+
+        /*System.out.println("\n delete from middle by position ");
+
+        showNodes(deleteFromMiddle(h1, 4));*/
 
        /* System.out.println("\n Deleting from head ");
         showNodes(deleteNodeFromHead(h1));
@@ -76,6 +80,29 @@ public class LinkedList {
         ptr.next = nextNode;
 
         return head;
+    }
+
+    public static ListNode deleteEqualsValue(ListNode head, int target) {
+        if (head == null) return head;
+
+        if (head.val == target) {
+            head = head.next;
+            return head;
+        }
+
+        ListNode prev = head;
+        ListNode curr = head.next;
+        while (curr.next != null) {
+            if (curr.val == target) {
+                prev.next = curr.next;
+                break;
+            }
+            prev = curr;
+            curr = curr.next;
+
+        }
+        return head;
+
     }
 
 }
