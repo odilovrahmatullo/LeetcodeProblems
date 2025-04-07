@@ -21,11 +21,11 @@ public class LinkedList {
         h5.next = h6;
         h6.next = null;
 
-      /*  System.out.println(" all nodes ");
+        System.out.println(" all nodes ");
 
         showNodes(h1);
 
-        System.out.println("\n Insert value into anywhere ");
+       /*  System.out.println("\n Insert value into anywhere ");
 
         insertIntoMiddle(h1, 12, 4);*/
 
@@ -62,11 +62,13 @@ public class LinkedList {
     }
 
     public static ListNode deleteNodeFromHead(ListNode head) {
+
         head = head.next;
         return head;
     }
 
     public static ListNode deleteNodeFromEnd(ListNode head) {
+
         ListNode temp = head;
         while (temp.next.next != null) temp = temp.next;
 
@@ -77,6 +79,7 @@ public class LinkedList {
     }
 
     public static ListNode deleteFromMiddle(ListNode head, int position) {
+
         ListNode ptr = head;
 
         for (int i = 1; i < position - 1; i++) {
@@ -95,6 +98,7 @@ public class LinkedList {
     }
 
     public static ListNode deleteEqualsValue(ListNode head, int target) {
+
         if (head == null) return head;
 
         if (head.val == target) {
@@ -118,6 +122,7 @@ public class LinkedList {
     }
 
     public static void insertIntoHead(ListNode head, int valueToInsert) {
+
         ListNode newNode = new ListNode(valueToInsert);
 
         newNode.next = head;
@@ -143,6 +148,7 @@ public class LinkedList {
     }
 
     public static void insertIntoMiddle(ListNode head, int valueToInsert, int position) {
+
         ListNode newNode = new ListNode(valueToInsert);
 
         ListNode temp = head;

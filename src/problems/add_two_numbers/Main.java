@@ -30,6 +30,7 @@ public class Main {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         ListNode dummy = new ListNode(-1);
+
         ListNode current = dummy;
         int rest = 0;
 
@@ -43,7 +44,6 @@ public class Main {
                 summa += l2.val;
                 l2 = l2.next;
             }
-
             rest = summa / 10;
             summa = summa % 10;
             current.next = new ListNode(summa);
