@@ -21,13 +21,25 @@ public class LinkedList {
         h5.next = h6;
         h6.next = null;
 
-        System.out.println(" all nodes ");
+      /*  System.out.println(" all nodes ");
 
         showNodes(h1);
 
-        System.out.println("\n delete from lis by target value ");
+        System.out.println("\n Insert value into anywhere ");
 
-        showNodes(deleteEqualsValue(h1, 90));
+        insertIntoMiddle(h1, 12, 4);*/
+
+        /*System.out.println("\n Insert value into Head ");
+
+        insertIntoHead(h1, 7);
+
+        System.out.println("\n Insert value into End ");
+
+        insertIntoEnd(h1, 99);*/
+
+       /* System.out.println("\n delete from lis by target value ");
+
+        showNodes(deleteEqualsValue(h1, 90));*/
 
         /*System.out.println("\n delete from middle by position ");
 
@@ -105,4 +117,43 @@ public class LinkedList {
 
     }
 
+    public static void insertIntoHead(ListNode head, int valueToInsert) {
+        ListNode newNode = new ListNode(valueToInsert);
+
+        newNode.next = head;
+
+        head = newNode;
+
+        showNodes(head);
+    }
+
+    public static void insertIntoEnd(ListNode head, int valueToInsert) {
+
+        ListNode newNode = new ListNode(valueToInsert);
+
+        ListNode temp = head;
+
+        while (temp.next != null) {
+            temp = temp.next;
+        }
+
+        temp.next = newNode;
+
+        showNodes(head);
+    }
+
+    public static void insertIntoMiddle(ListNode head, int valueToInsert, int position) {
+        ListNode newNode = new ListNode(valueToInsert);
+
+        ListNode temp = head;
+
+        for (int i = 1; i < position - 1; i++) {
+            temp = temp.next;
+        }
+
+        newNode.next = temp.next;
+        temp.next = newNode;
+
+        showNodes(head);
+    }
 }
