@@ -24,7 +24,6 @@ public class Main {
         while (result != null) {
             System.out.println(result.val);
             result = result.next;
-
         }
     }
 

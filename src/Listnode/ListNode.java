@@ -1,6 +1,4 @@
-package Listnode;
-
-import java.util.List;
+package problems.Listnode;
 
 public class ListNode {
     public int val;
