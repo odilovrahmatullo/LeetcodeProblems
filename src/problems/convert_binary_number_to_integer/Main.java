@@ -1,4 +1,4 @@
-package convert_binary_number_to_integer;
+package problems.convert_binary_number_to_integer;
 
 import Listnode.ListNode;
 

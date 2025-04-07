@@ -1,7 +1,4 @@
-package happy_number;
-
-import java.util.HashSet;
-import java.util.Set;
+package problems.happy_number;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package two_sum_II;
+package problems.two_sum_II;
 
 import java.util.Arrays;
 

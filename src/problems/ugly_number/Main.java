@@ -1,4 +1,4 @@
-package ugly_number;
+package problems.ugly_number;
 
 public class Main {
 

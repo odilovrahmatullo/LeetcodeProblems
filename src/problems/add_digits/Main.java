@@ -1,4 +1,4 @@
-package add_digits;
+package problems.add_digits;
 
 public class Main {
     public static void main(String[] args) {

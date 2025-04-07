@@ -1,8 +1,4 @@
-package reversevowel;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package problems.reversevowel;
 
 public class Main {
 

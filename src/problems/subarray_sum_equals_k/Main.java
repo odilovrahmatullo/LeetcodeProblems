@@ -1,4 +1,4 @@
-package subarray_sum_equals_k;
+package problems.subarray_sum_equals_k;
 
 import java.util.HashMap;
 import java.util.Map;

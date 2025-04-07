@@ -1,4 +1,4 @@
-package reverse_integer;
+package problems.reverse_integer;
 
 import static java.lang.Math.pow;
 

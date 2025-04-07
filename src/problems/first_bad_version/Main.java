@@ -1,4 +1,4 @@
-package first_bad_version;
+package problems.first_bad_version;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package swap_notes_in_pairs;
+package problems.swap_notes_in_pairs;
 
 
 import Listnode.ListNode;

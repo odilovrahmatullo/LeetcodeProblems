@@ -1,4 +1,4 @@
-package find_the_duplicate_number;
+package problems.find_the_duplicate_number;
 
 
 public class Main {

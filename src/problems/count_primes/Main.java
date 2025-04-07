@@ -1,4 +1,4 @@
-package count_primes;
+package problems.count_primes;
 
 public class Main {
     public static void main(String[] args) {

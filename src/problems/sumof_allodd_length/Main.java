@@ -1,4 +1,4 @@
-package sumof_allodd_length;
+package problems.sumof_allodd_length;
 
 public class Main {
 

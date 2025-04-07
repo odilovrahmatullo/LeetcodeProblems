@@ -1,4 +1,4 @@
-package length_of_last_word;
+package problems.length_of_last_word;
 
 public class Main {
     public static void main(String[] args) {

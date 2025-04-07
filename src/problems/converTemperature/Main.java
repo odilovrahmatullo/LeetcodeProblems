@@ -1,4 +1,4 @@
-package converTemperature;
+package problems.converTemperature;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package reverse_linked_list;
+package problems.reverse_linked_list;
 
 
 import Listnode.ListNode;

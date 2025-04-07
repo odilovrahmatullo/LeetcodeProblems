@@ -1,4 +1,4 @@
-package find_pivot_index;
+package problems.find_pivot_index;
 
 public class Main {
     public static void main(String[] args) {

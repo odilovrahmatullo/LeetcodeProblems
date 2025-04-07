@@ -1,4 +1,4 @@
-package maximum_sub_array;
+package problems.maximum_sub_array;
 
 public class Main {
 

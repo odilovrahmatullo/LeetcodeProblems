@@ -1,4 +1,4 @@
-package remove_linked_list_elements;
+package problems.remove_linked_list_elements;
 
 import Listnode.ListNode;
 

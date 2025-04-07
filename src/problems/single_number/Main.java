@@ -1,4 +1,4 @@
-package single_number;
+package problems.single_number;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package missing__number;
+package problems.missing__number;
 
 
 public class Main {

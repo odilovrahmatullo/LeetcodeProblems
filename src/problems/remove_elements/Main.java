@@ -1,4 +1,4 @@
-package remove_elements;
+package problems.remove_elements;
 
 public class Main {
     /* Given an integer array nums and an integer val, remove all occurrences of val in nums in-place.

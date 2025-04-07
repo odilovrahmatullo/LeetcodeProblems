@@ -1,4 +1,4 @@
-package find_firtth_occurence_in_string;
+package problems.find_firtth_occurence_in_string;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package minimum_common_value;
+package problems.minimum_common_value;
 
 public class MinimumCommonValue {
     public static void main(String[] args) {

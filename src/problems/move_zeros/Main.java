@@ -1,7 +1,4 @@
-package move_zeros;
-
-import java.util.Arrays;
-import java.util.EnumSet;
+package problems.move_zeros;
 
 public class Main {
 

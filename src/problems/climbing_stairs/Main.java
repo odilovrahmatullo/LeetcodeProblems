@@ -1,4 +1,4 @@
-package climbing_stairs;
+package problems.climbing_stairs;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package merge_two_sorted_list;
+package problems.merge_two_sorted_list;
 
 import Listnode.ListNode;
 

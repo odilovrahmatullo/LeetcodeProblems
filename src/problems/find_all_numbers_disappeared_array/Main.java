@@ -1,4 +1,4 @@
-package find_all_numbers_disappeared_array;
+package problems.find_all_numbers_disappeared_array;
 
 import java.util.ArrayList;
 import java.util.List;

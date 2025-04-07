@@ -1,4 +1,4 @@
-package rotate_image;
+package problems.rotate_image;
 
 import java.util.Arrays;
 

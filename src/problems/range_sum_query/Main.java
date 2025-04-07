@@ -1,4 +1,4 @@
-package range_sum_query;
+package problems.range_sum_query;
 
 public class Main {
     public static void main(String[] args) {

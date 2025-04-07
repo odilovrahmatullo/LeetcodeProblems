@@ -1,4 +1,4 @@
-package problems.Listnode;
+package Listnode;
 
 public class Main {
     public static void main(String[] args) {

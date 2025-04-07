@@ -1,4 +1,4 @@
-package reverse_prefix_of_word;
+package problems.reverse_prefix_of_word;
 
 public class Main {
     public static void main(String[] args) {

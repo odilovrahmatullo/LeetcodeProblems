@@ -1,4 +1,4 @@
-package contiguous_array;
+package problems.contiguous_array;
 
 import java.util.HashMap;
 import java.util.Map;

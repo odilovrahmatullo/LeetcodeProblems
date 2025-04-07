@@ -1,4 +1,4 @@
-package longest_palindromic_substring;
+package problems.longest_palindromic_substring;
 
 public class Main {
 

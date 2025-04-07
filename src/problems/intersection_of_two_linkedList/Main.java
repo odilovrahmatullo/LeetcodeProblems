@@ -1,4 +1,4 @@
-package intersection_of_two_linkedList;
+package problems.intersection_of_two_linkedList;
 
 import Listnode.ListNode;
 

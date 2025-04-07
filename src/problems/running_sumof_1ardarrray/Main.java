@@ -1,4 +1,4 @@
-package running_sumof_1ardarrray;
+package problems.running_sumof_1ardarrray;
 
 public class Main {
 

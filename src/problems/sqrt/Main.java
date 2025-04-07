@@ -1,4 +1,4 @@
-package sqrt;
+package problems.sqrt;
 
 public class Main {
 
@@ -18,12 +18,12 @@ public class Main {
     Output: 2
     Explanation: The square root of 8 is 2.82842..,since we round it down to the nearest integer, 2 is returned.*/
     public static void main(String[] args) {
-        System.out.println("sqrt(8) = " + mySqrt(8));
-        System.out.println("sqrt(10) = " + mySqrt(10));
-        System.out.println("sqrt(100) = " + mySqrt(100));
-        System.out.println("sqrt(121) = " + mySqrt(121));
-        System.out.println("sqrt(120) = " + mySqrt(120));
-        System.out.println("sqrt(122) = " + mySqrt(122));
+        System.out.println("problems.sqrt(8) = " + mySqrt(8));
+        System.out.println("problems.sqrt(10) = " + mySqrt(10));
+        System.out.println("problems.sqrt(100) = " + mySqrt(100));
+        System.out.println("problems.sqrt(121) = " + mySqrt(121));
+        System.out.println("problems.sqrt(120) = " + mySqrt(120));
+        System.out.println("problems.sqrt(122) = " + mySqrt(122));
     }
 
     public static int mySqrt(int x) {

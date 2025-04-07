@@ -1,4 +1,4 @@
-package plus_one;
+package problems.plus_one;
 
 import java.util.Arrays;
 

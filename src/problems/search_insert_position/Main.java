@@ -1,4 +1,4 @@
-package search_insert_position;
+package problems.search_insert_position;
 
 public class Main {
 

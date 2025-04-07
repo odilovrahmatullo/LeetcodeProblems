@@ -1,4 +1,4 @@
-package linked_list_cycle;
+package problems.linked_list_cycle;
 
 import Listnode.ListNode;
 

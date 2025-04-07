@@ -1,6 +1,4 @@
-package find_pivot_integer;
-
-import java.util.Scanner;
+package problems.find_pivot_integer;
 
 public class Main {
 

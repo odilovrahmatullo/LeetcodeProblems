@@ -1,4 +1,4 @@
-package closest_sum_3;
+package problems.closest_sum_3;
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -1,6 +1,4 @@
-package reversewordinastringIII;
-
-import java.util.Arrays;
+package problems.reversewordinastringIII;
 
 public class Main {
     public static void main(String[] args) {

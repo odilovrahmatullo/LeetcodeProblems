@@ -1,4 +1,4 @@
-package continuous_subarray_sum;
+package problems.continuous_subarray_sum;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package contains_duplicate_II;
+package problems.contains_duplicate_II;
 
 import java.util.*;
 

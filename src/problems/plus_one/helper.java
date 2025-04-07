@@ -1,4 +1,4 @@
-package plus_one;
+package problems.plus_one;
 
 public class helper {
     public static void main(String[] args) {

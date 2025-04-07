@@ -1,4 +1,4 @@
-package squares_sorted_array;
+package problems.squares_sorted_array;
 
 public class Main {
     public static void main(String[] args) {

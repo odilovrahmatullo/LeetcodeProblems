@@ -1,6 +1,4 @@
-package duplicate_zeros;
-
-import java.util.Arrays;
+package problems.duplicate_zeros;
 
 public class Main {
     public static void main(String[] args) {

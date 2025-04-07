@@ -1,4 +1,4 @@
-package remove_duplicate_from_sortedList;
+package problems.remove_duplicate_from_sortedList;
 
 import Listnode.ListNode;
 

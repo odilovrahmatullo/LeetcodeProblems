@@ -1,7 +1,4 @@
-package integer_to_roman;
-
-import java.util.HashMap;
-import java.util.Map;
+package problems.integer_to_roman;
 
 public class Main {
     public static void main(String[] args) {

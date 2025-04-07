@@ -1,4 +1,4 @@
-package reversestring;
+package problems.reversestring;
 
 public class Main {
     public static void main(String[] args) {
