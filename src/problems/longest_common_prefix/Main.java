@@ -29,7 +29,6 @@ public class Main {
             result += first.charAt(i);
             i++;
         }
-
         return result;
     }
 }

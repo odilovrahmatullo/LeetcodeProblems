@@ -13,7 +13,6 @@ public class Main {
         head.next = new ListNode(1);
         head.next.next = intersection;
 
-
         ListNode head1 = new ListNode(5);
         head1.next = new ListNode(6);
         head1.next.next = new ListNode(1);
