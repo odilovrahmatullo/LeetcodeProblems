@@ -33,17 +33,17 @@ public class Main {
     }
 
 
-    public static int myListNode(ListNode head){
+    public static int myListNode(ListNode head) {
 
         ListNode slow = head;
         ListNode fast = head;
-        while(fast != null && fast.next != null){
+        while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
 
-            if(slow==fast){
-                while(head != slow){
-                    head =  head.next;
+            if (slow == fast) {
+                while (head != slow) {
+                    head = head.next;
                     slow = slow.next;
                 }
                 return slow.val;

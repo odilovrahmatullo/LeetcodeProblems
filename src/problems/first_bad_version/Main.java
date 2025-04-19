@@ -8,7 +8,6 @@ public class Main {
         //it is just answer to leetcode question
 
 
-
     }
     /*public int firstBadVersion(int n) {
         int left = 1;

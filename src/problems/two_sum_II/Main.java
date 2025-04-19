@@ -9,8 +9,6 @@ public class Main {
         int[] array = {2, 7, 11, 15};
         int target = 9;
         System.out.println(Arrays.toString(twoSum(array, target)));
-
-
     }
 
     public static int[] twoSum(int[] numbers, int target) {
@@ -28,8 +26,8 @@ public class Main {
             }
         }
 
-        arr[0] = left+1;
-        arr[1] = right+1;
+        arr[0] = left + 1;
+        arr[1] = right + 1;
         return arr;
     }
 

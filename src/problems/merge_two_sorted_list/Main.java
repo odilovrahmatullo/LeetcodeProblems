@@ -21,7 +21,7 @@ public class Main {
     }
 
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-      
+
         ListNode dummy = new ListNode(-1);
         ListNode current = dummy;
 

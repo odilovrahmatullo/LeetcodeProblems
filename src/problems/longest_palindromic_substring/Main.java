@@ -33,7 +33,6 @@ public class Main {
             left--;
             right++;
         }
-
         return s.substring(left + 1, right);
     }
 }

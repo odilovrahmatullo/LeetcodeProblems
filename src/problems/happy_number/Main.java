@@ -44,25 +44,25 @@ public class Main {
 
     public static boolean isHappy(int n) {
 
-      int slow = n;
-      int fast = n;
-      do{
-          slow = sqrt(slow);
-          fast = sqrt(sqrt(fast));
-      }
-      while (slow != fast);
+        int slow = n;
+        int fast = n;
+        do {
+            slow = sqrt(slow);
+            fast = sqrt(sqrt(fast));
+        }
+        while (slow != fast);
 
-      return slow==1;
+        return slow == 1;
 
     }
 
-    public static int sqrt(int number){
+    public static int sqrt(int number) {
 
         int summa = 0;
-        while(number>0){
-            int m = number%10;
-            summa+=m*m;
-            number/=10;
+        while (number > 0) {
+            int m = number % 10;
+            summa += m * m;
+            number /= 10;
         }
         return summa;
 

@@ -26,18 +26,18 @@ public class Main {
         ListNode current = head;
         ListNode prev = dummy;
         while (current != null) {
-            if(current.val != val) {
-               prev.next = current;
-               prev = current;
-            }else {
+            if (current.val != val) {
+                prev.next = current;
+                prev = current;
+            } else {
                 prev.next = current.next;
             }
             current = current.next;
         }
-        if(prev.val == -1) {
+        if (prev.val == -1) {
             return null;
         }
-      return dummy.next;
+        return dummy.next;
     }
 
 

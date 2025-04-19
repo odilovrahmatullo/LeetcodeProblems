@@ -3,9 +3,10 @@ package problems.find_pivot_index;
 public class Main {
     public static void main(String[] args) {
 
-        int [] nums = {2,1,-1};
+        int[] nums = {2, 1, -1};
         System.out.println(pivotIndex(nums));
     }
+
     public static int pivotIndex(int[] nums) {
    /*     int[] arr = new int[ nums.length + 1];
         arr[0] = 0;

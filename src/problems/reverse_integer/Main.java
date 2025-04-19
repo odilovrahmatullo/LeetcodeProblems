@@ -13,11 +13,11 @@ public class Main {
     public static int reverse(int x) {
 
         int summa = 0;
-        while(Math.abs(x)>0 && x>pow(-2,31) && x<pow(2,31)-1){
-          int m = x%10;
-          x = x/10;
-          summa = summa*10+m;
+        while (Math.abs(x) > 0 && x > pow(-2, 31) && x < pow(2, 31) - 1) {
+            int m = x % 10;
+            x = x / 10;
+            summa = summa * 10 + m;
         }
-      return summa;
+        return summa;
     }
 }

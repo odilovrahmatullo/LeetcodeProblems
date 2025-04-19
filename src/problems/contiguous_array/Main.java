@@ -6,7 +6,7 @@ import java.util.Map;
 public class Main {
 
     public static void main(String[] args) {
-        int [] nums = {0,1,0,1,0,0,1};
+        int[] nums = {0, 1, 0, 1, 0, 0, 1};
 
         System.out.println(findMaxLength(nums));
 
@@ -25,7 +25,7 @@ public class Main {
         for (int i = 0; i < nums.length; i++) {
             summa += nums[i];
             if (myMap.containsKey(summa)) {
-                result = Math.max(result,i-myMap.get(summa));
+                result = Math.max(result, i - myMap.get(summa));
             } else {
                 myMap.put(summa, i);
             }

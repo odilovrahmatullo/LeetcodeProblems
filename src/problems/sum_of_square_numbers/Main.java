@@ -6,9 +6,9 @@ public class Main {
         System.out.println("4 = " + judgeSquareSum(4));
         System.out.println("5 = " + judgeSquareSum(5));
         System.out.println("37 = " + judgeSquareSum(37));*/
-       // System.out.println("2147483600 = " + getAbsoluteNumber(2147483600));
+        // System.out.println("2147483600 = " + getAbsoluteNumber(2147483600));
         System.out.println("2147483600 = " + judgeSquareSum(2147483600));
-/*        System.out.println("3 = " + judgeSquareSum(3));*/
+        /*        System.out.println("3 = " + judgeSquareSum(3));*/
 
 
     }
@@ -17,7 +17,7 @@ public class Main {
         int left = 0;
         int right = (int) Math.sqrt(c);
         while (right >= left) {
-            long sqSum = 1L*right * right + 1L*left * left;
+            long sqSum = 1L * right * right + 1L * left * left;
             if (sqSum == c) return true;
             else if (sqSum > c) right--;
             else left++;

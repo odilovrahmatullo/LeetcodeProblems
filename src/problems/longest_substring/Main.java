@@ -2,13 +2,12 @@ package problems.longest_substring;
 
 import java.util.*;
 
-public class Main
-{
+public class Main {
     public static void main(String[] args) {
 
 
         String str = "abcdabcbb";
-       System.out.println(lengthOfLongestSubstring(str));
+        System.out.println(lengthOfLongestSubstring(str));
 
 
     }
@@ -19,15 +18,14 @@ public class Main
         int start = 0;
         int end = 0;
         int result = 0;
-        while(end<s.length()){
-            if(!list.contains(s.charAt(end))){
+        while (end < s.length()) {
+            if (!list.contains(s.charAt(end))) {
                 list.add(s.charAt(end));
                 end++;
-                if(result<list.size()){
+                if (result < list.size()) {
                     result = list.size();
                 }
-            }
-            else{
+            } else {
                 list.remove(Character.valueOf(s.charAt(start)));
                 start++;
             }

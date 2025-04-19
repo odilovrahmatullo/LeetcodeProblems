@@ -3,7 +3,6 @@ package problems.linked_list_cycle;
 import Listnode.ListNode;
 
 
-
 public class Main {
 
     public static void main(String[] args) {
@@ -21,11 +20,11 @@ public class Main {
     public static boolean hasCycle(ListNode head) {
         ListNode slow = head.next;
         ListNode fast = head.next.next;
-        while(fast != null && fast.next != null){
+        while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
 
-            if(slow == fast){
+            if (slow == fast) {
                 return true;
             }
 

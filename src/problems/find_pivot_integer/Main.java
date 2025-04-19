@@ -18,20 +18,18 @@ public class Main {
 //            }
 //        }
 //        return -1;
-        if(n==1) return 1;
-        int summa = n*(n+1)/2;
+        if (n == 1) return 1;
+        int summa = n * (n + 1) / 2;
         int left = 0;
         int right = n;
-        while (left<right){
-            int middle = (right+left)/2;
-            int byMiddleSumma = middle*(middle+1) / 2;
-            if(byMiddleSumma<summa-byMiddleSumma+middle){
-                left=middle+1;
-            }
-            else if(byMiddleSumma==summa-byMiddleSumma+middle){
+        while (left < right) {
+            int middle = (right + left) / 2;
+            int byMiddleSumma = middle * (middle + 1) / 2;
+            if (byMiddleSumma < summa - byMiddleSumma + middle) {
+                left = middle + 1;
+            } else if (byMiddleSumma == summa - byMiddleSumma + middle) {
                 return middle;
-            }
-            else{
+            } else {
                 right = middle - 1;
             }
 

@@ -17,14 +17,14 @@ public class Main {
         int left = 0;
         int right = c.length - 1;
         while (right > left) {
-            if(!vowels[c[left]]){
+            if (!vowels[c[left]]) {
                 left++;
             }
-            if(!vowels[c[right]]){
+            if (!vowels[c[right]]) {
                 right--;
             }
 
-            if(vowels[c[left]] && vowels[c[right]]){
+            if (vowels[c[left]] && vowels[c[right]]) {
                 char temp = c[left];
                 c[left] = c[right];
                 c[right] = temp;

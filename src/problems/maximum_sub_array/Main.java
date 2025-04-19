@@ -28,6 +28,6 @@ public class Main {
                 result = sum;
             }
         }
-        return result/k;
+        return result / k;
     }
 }

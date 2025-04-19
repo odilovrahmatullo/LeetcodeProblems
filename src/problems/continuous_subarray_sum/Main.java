@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-        int [] nums = {23,2,6,4,7};
+        int[] nums = {23, 2, 6, 4, 7};
 
         System.out.println(checkSubarraySum(nums, 13));
 

@@ -27,12 +27,12 @@ public class Main {
         ListNode slow = head;
         ListNode fast = head;
 
-        while(fast!=null && fast.next!=null){
+        while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
 
-            if(slow==fast){
-                while (head!=slow){
+            if (slow == fast) {
+                while (head != slow) {
                     head = head.next;
                     slow = slow.next;
                 }

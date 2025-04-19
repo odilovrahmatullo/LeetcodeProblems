@@ -26,17 +26,17 @@ public class Main {
 
         int a = getSize(headA);
         int b = getSize(headB);
-        while(a>b){
+        while (a > b) {
             a--;
             headA = headA.next;
 
         }
-        while(b>a){
+        while (b > a) {
             b--;
             headB = headB.next;
         }
 
-        while(headA!=headB){
+        while (headA != headB) {
             headA = headA.next;
             headB = headB.next;
         }

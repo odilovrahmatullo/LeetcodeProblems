@@ -19,13 +19,12 @@ public class Main {
 
     public static int getDecimalValue(ListNode head) {
         int summa = head.val;
-        while(head.next != null) {
+        while (head.next != null) {
             head = head.next;
-            summa = summa*2+head.val;
+            summa = summa * 2 + head.val;
         }
         return summa;
     }
-
 
 
 }

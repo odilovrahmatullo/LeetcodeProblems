@@ -7,7 +7,7 @@ public class Main {
         System.out.println(climbStairs(n));
     }
 
-    public static int climbStairs(int n){
+    public static int climbStairs(int n) {
         int summa = 0;
         if (n == 1)
             return 1;
